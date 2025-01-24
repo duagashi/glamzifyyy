@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Diphylleia", serif;
+    color: #333;
+    background-color: #fff5e1; 
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #b89d5a; 
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcf8f8;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+ nav a:hover {
+    color: #8a7e39;
+}
+
+
+.dg-back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #e7cfcf;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .dg-back-link:hover {
+    color: #6e5252;
+  }
+
+/* Main Section */
+.dg-main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.dg-main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b89d5a;
+    font-size: 2rem;
+}
+
+
+.rings-container {
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+
+.ring-item {
+  background: #fff;
+  border: 1px solid #e0cba9;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.ring-item:hover {
+  box-shadow: 0 5px 15px rgba(184, 157, 90, 0.4);
+}
+
+
+.ring-item img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #e0cba9;
+}
+
+
+.ring-item h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 10px 0;
+  color: #b89d5a;
+}
+
+
+.ring-item p {
+  padding: 0 15px;
+  font-size: 0.95rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.ring-item button {
+  display: block;
+  margin: 10px auto 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #b89d5a;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ring-item button:hover {
+  background-color: #a4844c;
+}
+
+
+dg-gold-rings-materials h2 {
+    color: #b89d5a; 
+    font-weight: bold;
+  }
+  
+  .dg-gold-rings-materials table {
+    background-color: #ddd9d0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .dg-gold-rings-materials th, td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #b89d5a;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2rem; 
+  }
+
+  .dg-main h2 {
+      font-size: 1.8rem; 
+  }
+
+  .rings-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px; 
+  }
+
+  .ring-item h3 {
+      font-size: 1.2rem; 
+  }
+
+  .ring-item p {
+      font-size: 0.9rem; 
+  }
+
+  .ring-item button {
+      padding: 8px 15px;
+      font-size: 0.9rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+      font-size: 1.8rem; 
+  }
+
+  .dg-main h2 {
+      font-size: 1.6rem; 
+  }
+
+  .rings-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+      gap: 10px; 
+  }
+
+  .ring-item h3 {
+      font-size: 1rem; 
+  }
+
+  .ring-item p {
+      font-size: 0.85rem; 
+  }
+
+  .ring-item button {
+      padding: 6px 12px; 
+      font-size: 0.85rem; 
+  }
+}

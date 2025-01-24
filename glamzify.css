@@ -1,0 +1,339 @@
+body {
+   
+  font-family: "Diphylleia", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+
+}
+
+h1, h2 {
+text-align: center;
+margin-bottom: 1rem;
+}
+
+p {
+text-align: center;
+margin-bottom: 1rem;
+}
+
+section {
+padding: 2rem 1rem;
+margin: 1rem 0;
+}
+
+a.dg-button {
+display: inline-block;
+text-align: center;
+padding: 0.5rem 1rem;
+color: #fff;
+background-color: #0078d7;
+text-decoration: none;
+border-radius: 5px;
+}
+
+a.dg-button:hover {
+background-color: #005bb5;
+}
+
+.dg-logo {
+max-width: 100px; 
+height: auto;   
+}
+
+/* Navbar Styles */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items:center;
+background-color: #ffffff;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+padding: 1rem 2rem;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+.navbar-brand {
+font-size: 2rem;
+color: #b69552; 
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+}
+.navbar-brand:hover{
+color:#6c5454;
+}
+
+.navbar-menu {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+gap: 1.5rem; 
+}
+
+.nav-item {
+display: inline-block;
+}
+
+.nav-link {
+color: #b69552; 
+font-size: 1rem;
+
+}
+.nav-link:hover{
+color:#6c5454;
+}
+.dropdown {
+border-color: #3f2303;
+}
+.dropdown-item{
+color:#b69552;
+}
+
+/* Welcome Section */
+#glamzify-home {
+background-color: #0078d7;
+color: rgb(152, 136, 47);
+padding: 3rem 1rem;
+}
+
+#glamzify-home h1 {
+font-size: 3rem;
+}
+
+#glamzify-home p {
+font-size: 1.2rem;
+margin-bottom: 1.5rem;
+}
+
+/* About Section */
+.dg-background-clip {
+display: flex;              
+justify-content: center;    
+align-items: center;
+border-radius: 50%;         
+overflow: hidden;           
+width: 300px;              
+height: 300px;             
+margin: 0 auto;            
+}
+
+.dg-background-clip img {
+width: 100%;               
+height: 100%;              
+object-fit: cover;          
+}
+
+.dg-container {
+margin-left: 100px;
+margin-right: 100px;
+}
+
+/* Team section */
+.dg-team-section {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+}
+
+.dg-team-section h2 {
+font-size: 2rem;
+margin-bottom: 20px;
+color: #333;
+}
+
+/* Individual Team Cards */
+.dg-team-card {
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 100%; 
+text-align: center;
+overflow: hidden;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dg-team-card:hover {
+transform: scale(1.05);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dg-team-card img {
+width: 100%;
+height: auto;
+border-bottom: 1px solid #ddd;
+}
+
+.dg-team-card h3 {
+margin: 10px 0;
+font-size: 1.2rem;
+color: #333;
+}
+
+.dg-team-card p {
+font-size: 0.9rem;
+color: #666;
+margin: 5px 10px 15px;
+}
+
+/* Why Glamzify Section */
+.dg-py-5 {
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #f9f9f9; 
+}
+
+.dg-container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.dg-text-center {
+text-align: center;
+}
+
+.dg-text-primary {
+color: #1a73e8;
+}
+
+.dg-mb-4 {
+margin-bottom: 1.5rem;
+}
+
+.list-group {
+list-style-type: none;
+padding: 0;
+margin-top: 30px;
+}
+
+.list-group-item {
+font-size: 1.1rem;
+color: #333;
+padding: 12px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+margin-bottom: 15px;
+transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+background-color: #1a73e8;
+color: white;
+border-color: #1a73e8;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 20px;
+background-color: #333;
+color: white;
+font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1.5rem;
+  }
+
+  .navbar-brand {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+  }
+
+  .navbar-menu {
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 100%;
+  }
+
+  .carousel-caption {
+      padding: 1.5rem;
+  }
+
+  #glamzify-home h1 {
+      font-size: 2.5rem;
+  }
+
+  #glamzify-home p {
+      font-size: 1.2rem;
+  }
+
+  .dg-team-card {
+      margin-bottom: 1.5rem;
+  }
+
+  .dg-container {
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .dg-background-clip {
+      width: 250px;
+      height: 250px;
+  }
+
+  .list-group-item {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+  }
+
+  .navbar-brand {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+  }
+
+  .navbar-menu {
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+  }
+
+  .carousel-caption {
+      padding: 1rem;
+  }
+
+  #glamzify-home h1 {
+      font-size: 2rem;
+  }
+
+  #glamzify-home p {
+      font-size: 1rem;
+  }
+
+  .dg-team-card {
+      margin-bottom: 1rem;
+  }
+
+  .dg-container {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .dg-background-clip {
+      width: 200px;
+      height: 200px;
+  }
+
+  .list-group-item {
+      font-size: 0.9rem;
+  }
+}

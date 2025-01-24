@@ -1,0 +1,164 @@
+body {
+    font-family: "Diphylleia", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.dg-back-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #2b6ee9;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .dg-back-link:hover {
+    color: #090e8e;
+  }
+
+.dg-chat-container {
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.dg-chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.dg-chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.dg-chat-message {
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.dg-chat-message.user {
+    justify-content: flex-end;
+}
+
+.dg-chat-message .message {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.dg-chat-message.user .message {
+    background-color: #007bff;
+    color: white;
+    border-bottom-right-radius: 0;
+}
+
+.dg-chat-message.bot .message {
+    background-color: #f0f0f0;
+    color: #333;
+    border-bottom-left-radius: 0;
+}
+
+.dg-chat-footer {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.dg-chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.dg-chat-footer button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dg-chat-footer button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  
+    main {
+        margin: 20px;
+        padding: 15px;
+    }
+
+  
+    header h1 {
+        font-size: 2rem;
+    }
+
+  
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    label, input, select, textarea, button {
+        font-size: 1rem;
+    }
+
+ 
+    button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+ 
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+  
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    label, input, select, textarea, button {
+        font-size: 0.95rem;
+    }
+
+  
+    button {
+        padding: 8px;
+    }
+}

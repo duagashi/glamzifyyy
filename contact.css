@@ -1,0 +1,163 @@
+body {
+  font-family: "Diphylleia", serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.dg-back-link {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dg-back-link i {
+  margin-right: 8px;
+}
+
+.dg-back-link:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Contact Form Container */
+.dg-contact-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dg-contact-header h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #333;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}
+
+.dg-contact-details {
+  margin-top: 30px;
+}
+
+.dg-contact-details h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.dg-contact-details p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .dg-ring-item {
+      padding: 10px; 
+  }
+
+  .dg-ring-item img {
+      border-radius: 6px;
+      margin-bottom: 10px;
+  }
+
+  .dg-ring-item h3 {
+      font-size: 1.1em;
+      margin-bottom: 8px;
+  }
+
+  .dg-ring-item p {
+      font-size: 0.9em; 
+      margin-bottom: 10px;
+  }
+
+  .dg-ring-item button {
+      padding: 8px 15px;
+      font-size: 0.9em; 
+  }
+
+  .dg-rings-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+      gap: 15px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .dg-ring-item {
+      padding: 8px; 
+  }
+
+  .dg-ring-item img {
+      border-radius: 5px;
+      margin-bottom: 8px;
+  }
+
+  .dg-ring-item h3 {
+      font-size: 1em;
+      margin-bottom: 6px;
+  }
+
+  .dg-ring-item p {
+      font-size: 0.85em; 
+      margin-bottom: 8px;
+  }
+
+  .dg-ring-item button {
+      padding: 6px 12px; 
+      font-size: 0.85em; 
+  }
+
+  .dg-rings-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+      gap: 10px; 
+  }
+}

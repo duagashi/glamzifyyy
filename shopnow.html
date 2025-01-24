@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now - Glamzify</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="shopnow.css">
+</head>
+
+<body>
+
+    <header>
+        <br>
+        <a href="index.html" class="dg-back-link">
+            <i class="bi bi-house"></i> Home </a>
+    </header>
+
+    <div class="dg-container">
+        <h1>Glamzify Jewelry</h1>
+    </div>
+
+<main>
+    <div class="dg-hero">
+        <h2>Discover Your Perfect Jewelry</h2>
+        <p>Explore our exclusive collection and find the piece that resonates with your style.</p>
+    </div>
+</main>
+
+  <!-- Shop Section -->
+        <section class="container py-5">
+          <h2 class="text-center mb-4">Our Products</h2>
+          <div class="row">
+           
+            <div class="col-md-4 mb-4">
+              <div class="card custom-card">
+                <img src="foto/ring1.webp" class="card-img-top" alt="Diamond Ring">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Diamond Ring</h5>
+                  <p class="card-text">$999.00</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+              <div class="card custom-card">
+                <img src="foto/diamondd.webp" class="card-img-top" alt="Diamond Necklace">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Diamond Necklace</h5>
+                  <p class="card-text">$799.00</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+              <div class="card custom-card">
+                <img src="foto/diamonddd.webp" class="card-img-top" alt="Diamond Set">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Diamond Set</h5>
+                  <p class="card-text">$1,199.00</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        
+        
+  <form class="custom-jewelry-form p-4 rounded shadow">
+    <div class="mb-4">
+      <label for="jewelryType" class="form-label fw-bold">Jewelry Type</label>
+      <select class="form-select form-control-lg" id="jewelryType">
+        <option>Ring</option>
+        <option>Necklace</option>
+        <option>Set</option>
+      </select>
+    </div>
+    <div class="mb-4">
+      <label for="material" class="form-label fw-bold">Preferred Material</label>
+      <select class="form-select form-control-lg" id="material">
+        <option>Gold</option>
+        <option>Silver</option>
+        <option>Rose Gold</option>
+      </select>
+    </div>
+    <div class="mb-4">
+      <label for="designDetails" class="form-label fw-bold">Design Details</label>
+      <textarea class="form-control form-control-lg" id="designDetails" rows="4" placeholder="Describe your design idea"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success btn-lg w-100">Submit Request</button>
+  </form>
+  
+<!-- Payment Methods Section -->
+<section class="container py-5">
+  <h2 class="text-center mb-4">Payment Methods</h2>
+  <div class="row">
+   
+    <div class="col-md-3 mb-4 text-center">
+      <div class="card">
+        <img src="foto/visa.png" class="card-img-top p-3" alt="Visa">
+        <div class="card-body">
+          <h5 class="card-title">Visa</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4 text-center">
+      <div class="card">
+        <img src="foto/mastercard.jpg" class="card-img-top p-3" alt="MasterCard">
+        <div class="card-body">
+          <h5 class="card-title">MasterCard</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4 text-center">
+      <div class="card">
+        <img src="foto/paypal.webp" class="card-img-top p-3" alt="PayPal">
+        <div class="card-body">
+          <h5 class="card-title">PayPal</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4 text-center">
+      <div class="card">
+        <img src="foto/applepay.webp" class="card-img-top p-3" alt="Apple Pay">
+        <div class="card-body">
+          <h5 class="card-title">Apple Pay</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Live Chat Section -->
+<section class="container-fluid py-5 text-center dg-live-chat-section">
+  <h3 class="mb-4">Need Assistance?</h3>
+  <p class="mb-4">Our customer support team is here to help. Start a live chat for quick assistance.</p>
+  <a href="livechat.html" class="dg-livechat" role="button" aria-label="Start live chat for assistance">
+    Start Live Chat
+  </a>
+</section>
+
+
+<footer class="dg-bg-dark custom-footer py-4">
+  <div class="container text-center">
+    <p class="mb-0">2025 Glamzify Jewelry. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="applynow.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Apply Now</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="dg-back-link">
+            <i class="bi bi-house"></i> Home </a>
+        <h1>Apply Now</h1>
+        <p>Join our team at Glamzify and shine with us!</p>
+    </header>
+    
+    <main>
+
+        <h2>Job Application Form</h2>
+        <form id="glamzify-jobApplicationForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="glamzify-fullName" name="fullName" placeholder="Enter your full name" required>
+    
+            <label for="email">Email Address:</label>
+            <input type="email" id="glamzify-email" name="email" placeholder="Enter your email address" required>
+    
+            <label for="jobPosition">Position:</label>
+            <select id="glamzify-jobPosition" name="jobPosition" required>
+                <option value="" disabled selected>Select a position</option>
+                <option value="Jewelry Designer">Jewelry Designer</option>
+                <option value="Customer Service Representative">Customer Service Representative</option>
+                <option value="Social Media Specialist">Social Media Specialist</option>
+            </select>
+    
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="glamzify-resume" name="resume" accept=".pdf,.doc,.docx" required>
+    
+            <label for="message">Why do you want to join Glamzify?</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write a brief message" required></textarea>
+    
+            <button type="submit">Submit Application</button>
+        </form>
+    
+        <p id="glamzify-successMessage" class="dg-success-message" style="display: none;">Your application has been submitted successfully. Thank you!</p>
+    </main>
+</body>
+</html>

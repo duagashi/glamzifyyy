@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Diphylleia", serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #1a73e8;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dg-back-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #6a92d8;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .dg-back-link:hover {
+    color: #273ec4;
+  }
+
+/* Main Section */
+.dg-hero {
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.dg-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dg-hero p {
+    font-size: 1.2rem;
+}
+
+/* Shop Section Styles */
+.dg-py-5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
+}
+
+.dg-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-card .card-img-top {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .custom-card .card-body {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .custom-card .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+  }
+  
+  
+  .custom-card:hover .card-body {
+    background-color: #f9f9f9;
+  }
+  
+
+.custom-jewelry-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .custom-jewelry-form label {
+    color: #6c757d; 
+  }
+
+  .custom-jewelry-form .form-select,
+  .custom-jewelry-form .form-control {
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s;
+  }
+
+  .custom-jewelry-form .form-select:focus,
+  .custom-jewelry-form .form-control:focus {
+    border-color: #1a73e8; 
+    box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+  }
+
+  .custom-jewelry-form button {
+    background-color: #1a73e8; 
+    border: none;
+    font-size: 1.2rem;
+  }
+
+  .custom-jewelry-form button:hover {
+    background-color: #155a9e; 
+  }
+
+
+/* General Card Styles */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin: 0 10px 15px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+/* Payment Methods Section */
+section.container {
+    padding: 50px 15px;
+}
+
+section.container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+section.container .card {
+    max-width: 250px; 
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: none; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+section.container .card img {
+    height: 150px; 
+    background-color: #f8f9fa; 
+}
+
+section.container .card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+section.container .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.dg-live-chat-section {
+    background: linear-gradient(135deg, #4a90e2, #1a73e8); 
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dg-livechat {
+    display: inline-block;
+    background-color: #fff;
+    color: #1a73e8;
+    padding: 5px 10px; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px; 
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.dg-livechat:hover {
+    background-color: #155a8a;
+    color: white;
+    transform: scale(1.05);
+}
+
+    .custom-footer {
+        background-color: #333;
+        color: #f8f9fa;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .custom-footer p {
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+      }
+    
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+
+    .dg-hero {
+        padding: 60px 15px;
+    }
+
+    .dg-hero h2 {
+        font-size: 2rem;
+    }
+
+    .dg-hero p {
+        font-size: 1rem;
+    }
+
+    .dg-container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .custom-card .card-img-top {
+        height: 150px;
+    }
+
+    .custom-jewelry-form {
+        max-width: 90%;
+    }
+
+    .custom-jewelry-form .form-select,
+    .custom-jewelry-form .form-control {
+        font-size: 0.9rem;
+    }
+
+    .dg-livechat {
+        font-size: 1rem;
+        padding: 5px 8px;
+    }
+
+    section.container .card {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+
+    .dg-hero {
+        padding: 40px 10px;
+    }
+
+    .dg-hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .dg-hero p {
+        font-size: 0.9rem;
+    }
+
+    .dg-back-link {
+        font-size: 0.9rem;
+    }
+
+    .custom-card .card-img-top {
+        height: 120px;
+    }
+
+    .custom-jewelry-form {
+        max-width: 100%;
+    }
+
+    .custom-jewelry-form .form-select,
+    .custom-jewelry-form .form-control {
+        font-size: 0.8rem;
+    }
+
+    .dg-livechat {
+        font-size: 0.9rem;
+        padding: 5px 6px;
+    }
+
+    section.container .card {
+        max-width: 180px;
+    }
+
+    section.container .card img {
+        height: 120px;
+    }
+
+    .custom-footer {
+        font-size: 0.9rem;
+    }
+}

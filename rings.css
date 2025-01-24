@@ -1,0 +1,185 @@
+body {
+  font-family: "Diphylleia", serif;
+  color: #594e4e;
+  background-color: #f9f9f9;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Header Section */
+header {
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #d7f8da;
+  margin-top: 10px;
+}
+
+.dg-back-link {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #e7cfcf;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.dg-back-link:hover {
+  color: #f2e5e5;
+}
+
+/* Container and Row */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Column Styling */
+.col-md-4, .col-md-3 {
+  flex: 1 1 calc(33.333% - 20px); 
+  max-width: calc(33.333% - 20px);
+  background: #ffffff;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  text-align: center;
+  padding: 25px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.col-md-4:hover, .col-md-3:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.col-md-4 img, .col-md-3 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.col-md-4 h5, .col-md-3 h5 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #3a3a3a;
+}
+
+.col-md-4 p, .col-md-3 p {
+  font-size: 1.1rem;
+  color: #666;
+  font-weight: 400;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+.gemstones-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem; 
+  margin-top: 2rem;
+}
+
+.gemstone-item {
+  text-align: center;
+}
+
+.gemstone-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+/* Button Styling */
+.dg-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: #fff;
+  transition: background 0.4s;
+  margin-top: 5px;
+}
+
+.dg-btn:hover {
+  background: linear-gradient(90deg, #0056b3, #004494);
+}
+
+footer {
+  background: linear-gradient(90deg, #2c2c2c, #444);
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  border-top: 5px solid #555;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+}
+
+@media (max-width: 768px) {
+  .col-md-4, .col-md-3 {
+    flex: 1 1 calc(50% - 20px); 
+    max-width: calc(50% - 20px);
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1.3rem;
+  }
+
+  .dg-btn {
+    padding: 12px 12px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-md-4, .col-md-3 {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
+
+  .dg-btn {
+    padding: 10px 10px;
+    font-size: 0.9rem;
+  }
+}

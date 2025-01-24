@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Diphylleia", serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #ccc;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fffefe;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+ nav a:hover {
+    color: #525455;
+}
+
+
+.dg-back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #f6ecec;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .dg-back-link:hover {
+    color: #9dbef3;
+  }
+
+.dg-hero-section {
+    background: linear-gradient(to right, #e0e0e0, #ffffff);
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.dg-hero-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.dg-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+
+.dg-ring-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+.dg-ring-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dg-ring-card img {
+    width: 100%;
+    height: auto;
+}
+
+.dg-ring-card h3 {
+    font-size: 1.5rem;
+    color: #444;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+.dg-ring-card p {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin: 0 10px 20px;
+}
+
+.dg-ring-card button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dg-ring-card button:hover {
+    background-color: #555;
+}
+
+
+.dg-silver-rings-materials h2 {
+    color: #757575;
+    font-weight: bold;
+  }
+  
+  .dg-silver-rings-materials table {
+    background-color: #fefefe;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .dg-silver-rings-materials th, td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-top: 4px solid #ccc;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .dg-hero-section {
+        padding: 20px 10px;
+    }
+
+    .dg-hero-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .dg-container {
+        gap: 15px;
+    }
+
+    .dg-ring-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .dg-ring-card p {
+        font-size: 0.9rem;
+    }
+
+    .dg-ring-card button {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .dg-hero-section {
+        padding: 15px 5px;
+    }
+
+    .dg-hero-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .dg-container {
+        gap: 10px;
+    }
+
+    .dg-ring-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .dg-ring-card p {
+        font-size: 0.8rem;
+    }
+
+    .dg-ring-card button {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}

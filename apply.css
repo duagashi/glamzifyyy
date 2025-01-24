@@ -1,0 +1,126 @@
+
+body {
+     font-family: "Diphylleia", serif;
+     margin: 0;
+     padding: 0;
+     background-color: #fdf6f6;
+     color: #333;
+        }
+    header {
+        background-color: #ffd1dc;
+        color: #ffffff;
+        padding: 20px 10px;
+        text-align: center;
+        }
+    header h1 {
+        margin: 0;
+        }
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    h2 {
+        color: #c71585;
+        }
+
+        .dg-back-link {
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #824949;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: color 0.3s;
+          }
+          
+          .dg-back-link:hover {
+            color: #dcdcdc;
+          }
+
+        .dg-job {
+            margin-bottom: 30px;
+        }
+        .dg-job h3 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .dg-job p {
+            margin: 5px 0;
+        }
+        .dg-apply-btn {
+            display: inline-block;
+            background-color: #c71585;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+        .dg-apply-btn:hover {
+            background-color: #a0106a;
+        }
+
+
+        @media (max-width: 768px) {
+            .dg-ring-item {
+                padding: 10px; 
+            }
+        
+            .dg-ring-item img {
+                border-radius: 6px;
+                margin-bottom: 10px;
+            }
+        
+            .dg-ring-item h3 {
+                font-size: 1.1em;
+                margin-bottom: 8px;
+            }
+        
+            .dg-ring-item p {
+                font-size: 0.9em;
+                margin-bottom: 10px;
+            }
+        
+            .dg-ring-item button {
+                padding: 8px 15px; 
+                font-size: 0.9em; 
+            }
+        
+           
+            .dg-rings-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+                gap: 15px; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dg-ring-item {
+                padding: 10px;
+            }
+            
+            .dg-ring-item img {
+                border-radius: 6px;
+                margin-bottom: 10px;
+            }
+        
+            .dg-ring-item h3 {
+                font-size: 1em; 
+                margin-bottom: 8px;
+            }
+        
+            .dg-ring-item p {
+                font-size: 0.9em; 
+                margin-bottom: 10px;
+            }
+        
+            .dg-ring-item button {
+                padding: 8px 15px; 
+                font-size: 0.9em; 
+            }
+        }
+
+    

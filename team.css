@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family:"Diphylleia", serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .dg-back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #e7cfcf;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .dg-back-link:hover {
+    color: #dcdcdc;
+  }
+
+  /* Header Section */
+  .dg-header {
+    text-align: center;
+    padding: 2rem;
+    background: rgb(151, 66, 164);
+    color: white;
+  }
+  
+  .dg-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .dg-header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Featured Section */
+  .dg-featured {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .dg-featured-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .dg-featured-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dg-featured-info {
+    max-width: 600px;
+  }
+  
+  .dg-featured-info h3 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #b3469b;
+    text-align:inherit;
+  }
+  
+  .dg-featured-info .role {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c757d;
+  }
+  
+  .dg-featured-info p {
+    margin: 1rem 0;
+  }
+  
+  .dg-featured-link {
+    text-decoration: none;
+    color: white;
+    background-color: #b300ff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dg-featured-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .dg-team-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dg-card-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .dg-team-grid h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  
+  /* Testimonials Section */
+  .dg-team-testimonials {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+  }
+  
+  .dg-team-testimonials h2 {
+    margin-bottom: 1.5rem;
+    color: #ae00ff;
+  }
+  
+  .dg-item p {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .dg-item h6 {
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  /* Footer */
+  .dg-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .dg-footer a {
+    color: #9d00ff;
+    text-decoration: none;
+  }
+  
+  .dg-footer a:hover {
+    text-decoration: underline;
+  }
+  
+@media (max-width: 768px) {
+  .dg-container {
+      padding: 15px;
+  }
+
+  .dg-product-gallery {
+      grid-template-columns: 1fr 1fr; 
+  }
+
+  .dg-product-card h2 {
+      font-size: 1.3rem; 
+  }
+
+  .dg-price {
+      font-size: 1.1rem; 
+  }
+
+  .dg-buy-button {
+      padding: 8px 18px; 
+  }
+
+  .dg-footer p {
+      font-size: 0.9rem; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .dg-container {
+      padding: 10px; 
+  }
+}
+  .dg-header h1 {
+      font-size: 1.8rem; 
+
+  .dg-header p {
+      font-size: 1rem; 
+  }
+
+  .dg-product-gallery {
+      grid-template-columns: 1fr; 
+  }
+
+  .dg-product-card h2 {
+      font-size: 1.2rem; 
+  }
+
+  .dg-price {
+      font-size: 1rem; 
+  }
+
+  .dg-buy-button {
+      padding: 8px 16px; 
+  }
+
+  .dg-footer p {
+      font-size: 0.8rem; 
+  }
+  }
